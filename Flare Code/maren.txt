@@ -1,0 +1,27 @@
+# mysterious healer
+name=Maren, Healer (?)
+
+#Standin portrait. Make a new one.
+portrait=images/portraits/female01.png
+
+talker=true
+
+#animation info
+
+gfx=animations/npcs/peasant_woman1.txt
+
+[dialog]
+requires_not_status=bo_omen_found
+her=Well... It's not often I see anyone this deep into the wilds. Who is it that comes out this far?
+you=A wanderer, nothing more.
+her=A word of advice, then, wanderer. These wilds are often inhospitable. Tread carefully if you wish to stay alive.
+you=It matters little to me... but thank you anyway.
+
+[dialog]
+topic = Omen
+requires_status=bo_omen_found
+requires_status=bo_info_found
+requires_not_status=bo_maren_found
+you=*Describes the thing that happened i guess*
+her=I see. You've come to me for help. I'll do what I can, though it may not be much, I'm afraid.
+set_status=bo_maren_found

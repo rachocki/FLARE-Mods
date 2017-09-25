@@ -1,0 +1,21 @@
+#############################
+#   Bad Omens quest chain   #
+#############################
+
+# The West Crypt and Western White Wind
+[quest]
+requires_not_status=bo_omen_found
+quest_text=Find out what happened to you. Ask around the Frontier Outpost to see if anyone knows anything.
+
+[quest]
+requires_status=bo_omen_found
+requires_not_status=bo_info_found
+quest_text=Search for this mysterious healer deep in the White Wind wilds. 
+
+[quest]
+requires_status=bo_info_found
+requires_not_status=bo_maren_found
+quest_text=Do whatever it is I decide she says you need to do to fix your condition I guess idfk
+
+[quest]
+#the bit that maren tells you to do.
