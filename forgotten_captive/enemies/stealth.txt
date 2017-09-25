@@ -1,0 +1,10 @@
+name=Stealth
+humanoid=false
+
+sfx_prefix=stealth
+animations=animations/enemies/stealth.txt
+
+# combat stats
+power_melee_phys=142
+passive_powers=143
+
